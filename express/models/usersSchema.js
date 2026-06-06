@@ -8,7 +8,8 @@ const usersSchema = new mongoose.Schema({
 
     user_message : {
         type: String,
-        required: false
+        required: false,
+        default: "---"
     },
 
     user_age : {
